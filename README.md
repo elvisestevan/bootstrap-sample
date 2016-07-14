@@ -1,3 +1,3 @@
-WebApp com exemplos do bootstrap
+WebApp com exemplos de html + css + js
 
-Aqui centraliza tudo o que vou aprendendo em bootstrap
+Aqui centraliza tudo o que vou aprendendo
