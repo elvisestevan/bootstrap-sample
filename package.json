@@ -1,0 +1,27 @@
+{
+  "name": "gamejs",
+  "version": "1.0.0",
+  "description": "",
+  "babel" : {
+      "presets" : ["es2015"]
+  },
+  "main": "gameBabel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel" : "babel gameBabel.js --watch --out-file game.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elvisestevan/game-babel.git"
+  },
+  "author": "Elvis Estevan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elvisestevan/game-babel/issues"
+  },
+  "homepage": "https://github.com/elvisestevan/game-babel#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
