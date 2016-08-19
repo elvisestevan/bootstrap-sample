@@ -6,52 +6,49 @@
     <title>Getting Started with Bootstrap</title>
 
     <link href="/lib/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/custom.css" rel="stylesheet">
 
   </head>
   <body>
 
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><img src="/images/logo.png" width="140" /></a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Link1</a></li>
+                <li><a href="#">Link2</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Link3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div class="container-fluid">
 
-      <nav class="navbar navbar-default" role="navigation">
+      <div class="page-header no-margin no-padding">
         <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle Navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Elvis Estevan</a>
-          </div>
-          <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Link1</a></li>
-                  <li><a href="#">Link2</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">Link3</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+          <img src="http://lorempixel.com/1170/550/" class="img-responsive" />
         </div>
-      </nav>
-
-      <div class="row col-xs-12 col-sm-2 col-md-6">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget urna eu libero vulputate fermentum. In nec tincidunt mauris. Cras sed arcu auctor, viverra nibh at, egestas metus. Nunc blandit id mi nec tincidunt. Aenean pellentesque massa et mi tincidunt pellentesque. Aenean tincidunt at magna quis faucibus. Sed lectus arcu, congue ut quam id, elementum hendrerit ex. Proin posuere sed massa ac varius. Proin porta semper efficitur. Vivamus sit amet ante eget ligula condimentum vehicula ac nec mauris.
-
-        Vivamus luctus risus in convallis rhoncus. Suspendisse risus ex, sagittis eu nisl quis, ornare iaculis enim. Integer non ex eget nibh suscipit tincidunt at id nisi. Etiam velit ante, tristique ac nisl et, interdum laoreet lacus. Donec laoreet ultrices orci id consequat. Donec metus mi, ornare a dignissim sed, mattis eu justo. Nulla non erat at quam venenatis rutrum.</p>
       </div>
-      <div class="row col-xs-12 col-sm-10 col-md-6">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget urna eu libero vulputate fermentum. In nec tincidunt mauris. Cras sed arcu auctor, viverra nibh at, egestas metus. Nunc blandit id mi nec tincidunt. Aenean pellentesque massa et mi tincidunt pellentesque. Aenean tincidunt at magna quis faucibus. Sed lectus arcu, congue ut quam id, elementum hendrerit ex. Proin posuere sed massa ac varius. Proin porta semper efficitur. Vivamus sit amet ante eget ligula condimentum vehicula ac nec mauris.
 
-        Vivamus luctus risus in convallis rhoncus. Suspendisse risus ex, sagittis eu nisl quis, ornare iaculis enim. Integer non ex eget nibh suscipit tincidunt at id nisi. Etiam velit ante, tristique ac nisl et, interdum laoreet lacus. Donec laoreet ultrices orci id consequat. Donec metus mi, ornare a dignissim sed, mattis eu justo. Nulla non erat at quam venenatis rutrum.</p>
-    </div>
     </div>
     <script src="/lib/js/jquery-2.2.4.min.js"></script>
     <script src="/lib/js/bootstrap.min.js" ></script>
